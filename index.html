@@ -1,32 +1,36 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="stylesheet" type="text/css" href="style.css"/>   
         <title>Concert Experiences
         </title>
     </head>
 
     <body>
+        <div class="container">
         <header>
             <h1>My Favorite Concert Experiences</h1>
-            <p><h3>I've had the great pleasure of seeing many artists perform over the years, 
-                but a few stand out in terms of enjoyment. Here are some highlights & photos that I'm pretty proud of!</h3></p>
+            <h4>I've had the great pleasure of seeing many artists perform over the years, 
+                but a few stand out in terms of enjoyment. Here are some highlights & photos I've taken that I'm pretty proud of!</h4>
                 <h2>Some Bands & Artists I've Seen:</h2>
-                <ul>
-                    <li>Metallica</li>
-                    <li>Tom Petty & The Heartbreakers</li>
-                    <li>Ray Wylie Hubbard</li>
-                    <li>Billy Joe Shaver</li>      
+                <ul id="List">
+                    <li><a href="#metallica">Metallica</a></li>
+                    <li><a href="#tphb">Tom Petty & The Heartbreakers</a></li>
+                    <li><a href="#rwh_bjs">Ray Wylie Hubbard</a></li>
+                    <li><a href="#rwh_bjs">Billy Joe Shaver</a></li>      
                 </ul>
         </header>
         <main>
-            
+           <article>
             <br>
-            <p><h2>Metallica</h2>
-            I was lucky enough to win Snakepit Passes for the 2017 Metallica show at Busch Stadium.
+            <a name = "metallica"></a>
+            <h2>Metallica</h2>
+
+            <p>I was lucky enough to win Snakepit Passes for the 2017 Metallica show at Busch Stadium.
             I took my friend Mike, a lifelong Metallica fan, to the show with me. We watched the show from a pit built 
             inside of the stage, and were close enough that we could touch and high-five all the members
             of the band! The entire experience was surreal,
-            and we had the time of our lives!</p><br>
+            and we had the time of our lives!</p><br><button onclick=" window.open('https://www.metallica.com/tour','_blank')"">Click For 2019 Tour Info!</button><br><br>
             
             <img src="images/Metallica/IMG_1131 copy.jpg" alt="Metallica On Stage" width="380" height="240"/>
             <img src="images/Metallica/IMG_0854.JPG" alt="Metallica Special Effects" width="323" height="240"/>    
@@ -43,8 +47,9 @@
             <img src="images/Metallica/IMG_0980 copy2.jpg" alt="Kirk Hammett" width="240" height="320"/>
             <br>
             <br>
-            <p><h2>Tom Petty & The Heartbreakers</h2>
-                I've been a massive Tom Petty fan for many years, and when he announced what would sadly become his final tour,
+            <a name = "tphb"></a>
+            <h2>Tom Petty & The Heartbreakers</h2>
+            <p>I've been a massive Tom Petty fan for many years, and when he announced what would sadly become his final tour,
                 I immediately knew that I had to see him again. I had been saving a Ticketmaster gift card for just the 
                 right occasion, and was able to score a lone seat in the 3rd row. Although I attended the show by myself, it was
                 one of the most magical nights of my life. Through his music, radio show, and other projects, Tom has been a
@@ -59,18 +64,26 @@
                 <img src="images/TPHB/IMG_0751 copy.jpg" alt="Tom Petty" width="320" height="320"/>
                 <br>
                 <br>
-                <p><h2>Ray Wylie Hubbard & Billy Joe Shaver</h2>
-                    Both of these artists are true legends in the outlaw country music scene. Each's songwriting genius
+                <a name = "rwh_bjs"></a>
+                <h2>Ray Wylie Hubbard & Billy Joe Shaver</h2>
+                <p>Both of these artists are true legends in the outlaw country music scene. Each's songwriting genius
                     rivals that of the other, and they both possess a unique, powerful, and at times humorous, style of
                     storytelling. I've had the honor of meeting them both, and getting a few autographs has been the 
                     icing on the cake.</p><br>
                 <img src="images/IMG_1343.JPG" alt="Ray Wylie Hubbard" width="210" height="290"/>    
-                <img src="images/IMG_0388.JPG" alt="Me & Ray Wylie" width="265" height="290"/>
+                <img src="images/IMG_0388.JPG" alt="Me & Ray Wylie" width="285" height="290"/>
                 <img src="images/IMG_1506.JPG" alt="Me & Ray Wylie" width="365" height="290"/>               
-                <img src="images/0324170107c.jpg" alt="Me & Billy Joe" width="190" height="290"/>
+                <img src="images/0324170107c.jpg" alt="Me & Billy Joe" width="170" height="290"/>
+                <button onclick=" window.open('https://en.wikipedia.org/wiki/Ray_Wylie_Hubbard','_blank')"">Learn More About Ray Wylie Hubbard</button>
+                <button onclick=" window.open('https://en.wikipedia.org/wiki/Billy_Joe_Shaver','_blank')"">Learn More About Billy Joe Shaver</button><br><br>
+            
+            </article> 
             </main>
+            <br>
         <footer>
-            &copy; Amanda
-        
+            &copy; Amanda, 2019
+        </footer>
+        </div>
+      
     </body>
 </html>
